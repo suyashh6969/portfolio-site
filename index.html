@@ -12,7 +12,9 @@
     <a class="logo" href="#home">&lt;Suyash /&gt;</a>
     <nav>
       <a href="#about">About</a>
+      <a href="#education">Education</a>
       <a href="#projects">Projects</a>
+      <a href="#github">GitHub</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
       <button id="theme-toggle" aria-label="Toggle light or dark mode">🌓</button>
@@ -21,12 +23,18 @@
 
   <main>
     <section id="home" class="hero">
-      <p class="eyebrow">Hi, I'm</p>
-      <h1>Suyash Baskaran</h1>
-      <p class="tagline">First-year ECE student · <span id="typing"></span><span class="cursor">|</span></p>
-      <div class="cta">
-        <a class="btn" href="#projects">See my work</a>
-        <a class="btn ghost" href="#contact">Get in touch</a>
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="badge">Open to collaborate</p>
+          <p class="eyebrow">Hi, I'm</p>
+          <h1>Suyash Baskaran</h1>
+          <p class="tagline">First-year ECE student · <span id="typing"></span><span class="cursor">|</span></p>
+          <div class="cta">
+            <a class="btn" href="#projects">See my work</a>
+            <a class="btn ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <img class="avatar" src="profile.jpg" alt="Photo of Suyash Baskaran" width="180" height="180">
       </div>
     </section>
 
@@ -41,34 +49,68 @@
       </p>
     </section>
 
+    <section id="education">
+      <h2>Education</h2>
+      <ul class="timeline">
+        <li>
+          <h3>VIT Vellore</h3>
+          <p class="when">Present</p>
+          <p>B.Tech in Electronics and Communication Engineering (ECE Core)</p>
+        </li>
+        <li>
+          <h3>National Public School, Whitefield</h3>
+          <p class="when">Up to 12th grade</p>
+          <p>Senior secondary school</p>
+        </li>
+        <li>
+          <h3>Greenwood High</h3>
+          <p class="when">Up to 10th grade</p>
+          <p>Secondary school</p>
+        </li>
+      </ul>
+    </section>
+
     <section id="projects">
       <h2>Projects</h2>
       <div class="grid">
         <article class="card">
           <h3>Attendance Tracker</h3>
+          <p class="meta"><span class="status">Completed</span> Oct 2026</p>
           <p>Command-line tool that shows how many classes you can skip while staying above 75%.</p>
           <p class="tags"><span>Python</span><span>CLI</span></p>
           <a href="https://github.com/suyashh6969/attendance-tracker">View on GitHub →</a>
         </article>
         <article class="card">
           <h3>File Organizer</h3>
+          <p class="meta"><span class="status">Completed</span> Oct 2026</p>
           <p>Sorts a messy folder by file type, with dry-run and undo support.</p>
           <p class="tags"><span>Python</span><span>Automation</span></p>
           <a href="https://github.com/suyashh6969/file-organizer">View on GitHub →</a>
         </article>
         <article class="card">
           <h3>Temperature Monitor</h3>
+          <p class="meta"><span class="status">Completed</span> Oct 2026</p>
           <p>Arduino Uno circuit simulated in Wokwi: an NTC sensor feeds a 16x2 LCD and an LED lights up above 25 °C.</p>
           <p class="tags"><span>Arduino</span><span>C++</span><span>Wokwi</span></p>
           <a href="https://github.com/suyashh6969/temperature-monitor">View on GitHub →</a>
         </article>
         <article class="card">
           <h3>Portfolio Website</h3>
+          <p class="meta"><span class="status live">Live</span> Oct 2026</p>
           <p>This site: responsive, purple and black theme with a light mode, built with plain HTML, CSS and JavaScript.</p>
           <p class="tags"><span>HTML</span><span>CSS</span><span>JS</span></p>
           <a href="https://github.com/suyashh6969/portfolio-site">View on GitHub →</a>
         </article>
       </div>
+    </section>
+
+    <section id="github">
+      <h2>GitHub Activity</h2>
+      <p class="muted">Latest repositories, loaded live from GitHub.</p>
+      <div id="repo-list" class="grid">
+        <p class="muted">Loading repositories…</p>
+      </div>
+      <p><a href="https://github.com/suyashh6969">See all on GitHub →</a></p>
     </section>
 
     <section id="skills">
