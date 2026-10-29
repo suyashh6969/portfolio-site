@@ -11,8 +11,10 @@ I'm a first-year ECE student at VIT, interested in where hardware meets software
 ## Features
 
 - Purple and black theme with a light-mode toggle that remembers your choice
-- Typing animation in the hero section
-- Project cards with hover effects and tech tags
+- Hero section with a profile photo, an "Open to collaborate" badge and a typing animation
+- Education timeline
+- Project cards with status tags, dates and tech tags
+- GitHub Activity section that loads my latest repositories live from the GitHub API
 - Responsive layout for phones and laptops
 - Smooth-scrolling navigation
 
@@ -29,9 +31,10 @@ I'm a first-year ECE student at VIT, interested in where hardware meets software
 
 ```
 portfolio-site/
-├── index.html   # page content
-├── style.css    # theme, layout and responsive rules
-├── script.js    # typing effect and theme toggle
+├── index.html    # page content
+├── style.css     # theme, layout and responsive rules
+├── script.js     # typing effect, theme toggle and live GitHub repos
+├── profile.jpg   # profile photo
 └── README.md
 ```
 
@@ -46,9 +49,10 @@ python -m http.server 8000
 
 ## Customize
 
-1. Edit the About text and project cards in `index.html`
-2. Change colors in the `:root` and `[data-theme]` blocks at the top of `style.css`
-3. Edit the `phrases` array in `script.js` to change the typing text
+1. Edit the About, Education and project cards in `index.html`
+2. Replace `profile.jpg` with your own square photo
+3. Change colors in the `:root` and `[data-theme]` blocks at the top of `style.css`
+4. Edit the `phrases` array in `script.js` to change the typing text, and `GITHUB_USER` to load a different account's repos
 
 ## Deployment
 
@@ -56,7 +60,7 @@ The site is hosted free on GitHub Pages, served from the `main` branch root.
 
 ## Tech
 
-HTML5, CSS3 (custom properties, grid, media queries), vanilla JavaScript
+HTML5, CSS3 (custom properties, grid, media queries), vanilla JavaScript, GitHub REST API
 
 ## Contact
 
