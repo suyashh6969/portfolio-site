@@ -22,6 +22,7 @@ I'm a first-year ECE student at VIT, interested in where hardware meets software
 | --- | --- | --- |
 | [Attendance Tracker](https://github.com/suyashh6969/attendance-tracker) | Shows how many classes you can skip while staying above 75% | Python |
 | [File Organizer](https://github.com/suyashh6969/file-organizer) | Sorts a messy folder by file type, with dry-run and undo | Python |
+| [Temperature Monitor](https://github.com/suyashh6969/temperature-monitor) | Arduino Uno circuit in Wokwi: NTC sensor, 16x2 LCD and an LED alert above 25 °C | Arduino, C++ |
 | [Portfolio Website](https://github.com/suyashh6969/portfolio-site) | This site | HTML, CSS, JavaScript |
 
 ## Project structure
